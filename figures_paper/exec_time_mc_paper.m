@@ -216,7 +216,7 @@ leg1 = legend([p_ptc, p1, p2, p3, p4, p5, p6, p7, p8],legend_names,'interpreter'
 	'location','southoutside','orientation','horizontal','numcolumns',5);
 leg1.ItemTokenSize(1) = 15;
 
-%% Export images
+%% Export figures
 
 if export_figures == true
 

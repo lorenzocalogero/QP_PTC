@@ -200,6 +200,8 @@ leg1 = legend(ax,[p_ptc, p1, p2, p3, p4, p5, p6, p7],legend_names,'interpreter',
 leg1.Layout.Tile = 'South';
 leg1.ItemTokenSize(1) = 15;
 
+%% Export figures
+
 if export_figures == true
 
 exportgraphics(f1,strcat(path,'sim_prim_dual_res_iter_ptc.pdf'),'BackgroundColor','w','ContentType','vector');
