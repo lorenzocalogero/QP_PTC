@@ -6,4 +6,4 @@ Enhanced quadratic programming (QP) via pseudo-transient continuation (PTC), wit
 
 The code is based on the following work:
 
-* L. Calogero, M. Pagone, and A. Rizzo, "Enhanced Quadratic Programming via Pseudo-Transient Continuation: An Application to Model Predictive Control," 2024 [_Under review_]
+* L. Calogero, M. Pagone, and A. Rizzo, "Enhanced Quadratic Programming via Pseudo-Transient Continuation: An Application to Model Predictive Control," _IEEE Control Systems Letters_, 2024 [_In press_]
