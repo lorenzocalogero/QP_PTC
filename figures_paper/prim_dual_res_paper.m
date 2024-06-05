@@ -2,9 +2,8 @@ clc
 clear variables
 close all
 
-export_images = false;
-path = ['C:\Users\Lorenzo\OneDrive - Politecnico di Torino\Dottorato\Articoli miei\' ...
-	'2024-J - L-CSS & CDC - Enhanced QP via PTC--An Application to MPC\v3\LaTeX - Manuscript\images\'];
+export_figures = true;
+path = '';
 
 %% Import data
 
@@ -201,7 +200,7 @@ leg1 = legend(ax,[p_ptc, p1, p2, p3, p4, p5, p6, p7],legend_names,'interpreter',
 leg1.Layout.Tile = 'South';
 leg1.ItemTokenSize(1) = 15;
 
-if export_images == true
+if export_figures == true
 
 exportgraphics(f1,strcat(path,'sim_prim_dual_res_iter_ptc.pdf'),'BackgroundColor','w','ContentType','vector');
 % exportgraphics(f2,strcat(path,'sim_prim_dual_res.pdf'),'BackgroundColor','w','ContentType','vector');
